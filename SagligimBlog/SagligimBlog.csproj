@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MakaleResimleri\1e996589-7bef-4b0f-9480-64cb0a525069.jpg" />
+    <Content Include="MakaleResimleri\296b46f6-0a02-4a18-b597-69e7fe0810be.jpg" />
+    <Content Include="MakaleResimleri\60141423-eb13-48e4-b382-14d2aef6ce0e.jpg" />
+    <Content Include="MakaleResimleri\f74576a7-6ac8-463f-a82d-e40fe45b8687.jpg" />
     <Content Include="Web.config" />
     <Content Include="Yonetici\ckeditor\adapters\jquery.js" />
     <Content Include="Yonetici\ckeditor\build-config.js" />
@@ -570,9 +574,7 @@
       <Name>DataAccessLayer</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MakaleResimleri\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
