@@ -33,7 +33,7 @@ body {
     }
 
 .solMenu {
-    width: 250px;
+    width: 200px;
     background-color: #dedede;
     height: 780px;
     float: left;
@@ -58,7 +58,7 @@ body {
         }
 
 .icerik {
-    width: 900px;
+    width: 80%;  /* 900px*/
     float: left;
     padding: 25px;
     

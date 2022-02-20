@@ -35,10 +35,10 @@
                         <li>Kategori Ekle</li>
                     </a>
 
-                    <a href="#">
+                    <a href="MakaleListele.aspx">
                         <li>Makaleler</li>
                     </a>
-                    <a href="#">
+                    <a href="MakaleEkle.aspx">
                         <li>Makale Ekle</li>
                     </a>
                 </ul>
@@ -49,5 +49,9 @@
             </div>
         </div>
     </form>
+     <script src="ckeditor/ckeditor.js"></script>
+     <script>
+         CKEDITOR.replace('ContentPlaceHolder1_tb_icerik');
+     </script>
 </body>
 </html>

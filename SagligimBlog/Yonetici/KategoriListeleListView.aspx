@@ -28,10 +28,11 @@
                        <td><%# Eval("ID") %></td>
                        <td><%# Eval("Isim") %></td>
                        <td>
-                           <a href='KategoriGuncelle.aspx?kid=<%# Eval("ID") %>' class="tablebutton update">Güncelle</a>
+                           <a href='KategoriGuncelle.aspx?mid=<%# Eval("ID") %>' class="tablebutton update">Güncelle</a>
+
                            <asp:LinkButton ID="lbtn_sil" runat="server" CommandName="sil" CommandArgument='<%# Eval("ID") %>' CssClass="tablebutton delete">Sil</asp:LinkButton>
                        </td>
-                       <td>Ekleyen Kişi</td>
+                       
                    </tr>
                </ItemTemplate>
            </asp:ListView>
