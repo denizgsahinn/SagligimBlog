@@ -67,10 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MakaleResimleri\1e996589-7bef-4b0f-9480-64cb0a525069.jpg" />
-    <Content Include="MakaleResimleri\296b46f6-0a02-4a18-b597-69e7fe0810be.jpg" />
-    <Content Include="MakaleResimleri\60141423-eb13-48e4-b382-14d2aef6ce0e.jpg" />
-    <Content Include="MakaleResimleri\f74576a7-6ac8-463f-a82d-e40fe45b8687.jpg" />
+    <Content Include="assets\css\MainStyle.css" />
+    <Content Include="assets\dedicated\120x600.gif" />
+    <Content Include="assets\dedicated\160x600.gif" />
+    <Content Include="assets\dedicated\250x250.gif" />
+    <Content Include="assets\dedicated\300x250.gif" />
+    <Content Include="assets\dedicated\336x280.gif" />
+    <Content Include="assets\dedicated\468x60.gif" />
+    <Content Include="assets\dedicated\728x90.gif" />
+    <Content Include="assets\Images\sagligim.png" />
+    <Content Include="Default.aspx" />
+    <Content Include="MakaleDetay.aspx" />
+    <Content Include="MakaleResimleri\801d6470-af13-4765-939c-2dde50ce8a4c.jpg" />
+    <Content Include="MakaleResimleri\8220495c-8083-412a-bb9c-e0b2dcc6f944.jpg" />
+    <Content Include="MakaleResimleri\9e9c5492-b3a1-463f-8021-542b4573aae5.jpg" />
+    <Content Include="MakaleResimleri\c7e46ca3-36df-4dba-b31f-6b3d7d54a53e.jpg" />
+    <Content Include="MakaleResimleri\Cover\801d6470-af13-4765-939c-2dde50ce8a4c.jpg" />
+    <Content Include="MakaleResimleri\Cover\8220495c-8083-412a-bb9c-e0b2dcc6f944.jpg" />
+    <Content Include="MakaleResimleri\Cover\9e9c5492-b3a1-463f-8021-542b4573aae5.jpg" />
+    <Content Include="MakaleResimleri\Cover\c7e46ca3-36df-4dba-b31f-6b3d7d54a53e.jpg" />
+    <Content Include="MakaleResimleri\none.png" />
     <Content Include="Web.config" />
     <Content Include="Yonetici\ckeditor\adapters\jquery.js" />
     <Content Include="Yonetici\ckeditor\build-config.js" />
@@ -463,6 +479,27 @@
     <Content Include="Yonetici\Giris.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MakaleDetay.aspx.cs">
+      <DependentUpon>MakaleDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MakaleDetay.aspx.designer.cs">
+      <DependentUpon>MakaleDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Yonetici\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -536,6 +573,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MasterPage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

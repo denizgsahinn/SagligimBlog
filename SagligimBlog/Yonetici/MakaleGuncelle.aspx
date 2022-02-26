@@ -14,7 +14,7 @@
             <asp:Panel ID="pnl_basarisiz" runat="server" CssClass="basarisizMesaj" Visible="false">
                 <asp:Label ID="lbl_mesaj" runat="server"></asp:Label>
             </asp:Panel>
-            <div style="width:450px; float:left">
+            <div style="width:550px; float:left">
                 <div class="row">
                     <label>Makale Başlık</label><br />
                     <asp:TextBox ID="tb_isim" runat="server" CssClass="formInput"></asp:TextBox>
