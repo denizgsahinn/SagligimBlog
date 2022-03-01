@@ -16,7 +16,7 @@ namespace SagligimBlog.Yonetici
         {
             if (Request.QueryString.Count != 0)
             {
-                if (!IsPostBack)
+                if (!IsPostBack)  // sayfa ilk kez çağırılıyor ise bunları yap
                 {
                     ddl_kategoriler.DataSource = dm.KategoriListele();
                     ddl_kategoriler.DataBind();
